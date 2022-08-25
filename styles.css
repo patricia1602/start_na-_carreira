@@ -28,7 +28,7 @@ body {
     font-size: 18px;
     font-weight: normal;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     text-align: center;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .formInput {
-    background: white;
+    background:white;
     width: 40px;
     padding: 5px 5px 8px 8px;
 }
 
-.formInput :focus {
+.formInput:focus {
     border: 3px solid var(--primary-color);
     outline: none;
 }
@@ -65,4 +65,10 @@ body {
     height: 50px;
     font-size: 17px;
     color: white;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
 }
