@@ -18,7 +18,7 @@
                 <p>Quanto ficou a conta?</p>
              </label>
              <p>
-                R$<input type="number" placeholder="100" name="bill" id="bill" class="formInput">
+                R$<input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
              </p>
              <label for="serviceQual">
                 <p>Como foi seu serviço?</p>
@@ -37,7 +37,7 @@
                 <p>Quantas pessoas vão dividir a conta?</p>
              </label>
              <p>
-                <input type="number" placeholder="1" name="people" id="people" >pessoa(s)
+                <input type="number" placeholder="1" name="people" id="people" class="formInput" required>pessoa(s)
              </p>
              <button type="submit" class="formSubmit">Calcular</button>
         </form>
@@ -45,7 +45,7 @@
       <div id="totalTip">
          Gorjeta Total:
          R$<span id="tip">0.00</span>
-         <p id="each">cada</p>
+         <span id="each">cada</span>
       </div>
    </div>
    <script type="text/javaScript" src="scripts.js"></script>
